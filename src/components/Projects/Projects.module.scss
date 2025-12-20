@@ -41,15 +41,27 @@
         }
         .desc {
           margin-top: 30px;
+          margin-bottom: 30px;
           font-size: 1.6rem;
           line-height: 1.5;
         }
         .iconList {
           display: flex;
-          margin-top: 30px;
-          font-size: 2.6rem;
-          gap: 15px;
-          li {
+          justify-content: space-between;
+          align-items: center;
+          .iconBox {
+            display: flex;
+            font-size: 2.6rem;
+            gap: 15px;
+            li {
+              &:hover {
+                transform: scale(1.1);
+                color: #00a1ff;
+              }
+            }
+          }
+          .dataLink {
+            font-size: 2rem;
             &:hover {
               transform: scale(1.1);
               color: #00a1ff;
@@ -116,15 +128,27 @@
           }
           .desc {
             margin-top: 30px;
+            margin-bottom: 30px;
             font-size: 1.6rem;
             line-height: 1.5;
           }
           .iconList {
             display: flex;
-            margin-top: 30px;
-            font-size: 2.6rem;
-            gap: 15px;
-            li {
+            justify-content: space-between;
+            align-items: center;
+            .iconBox {
+              display: flex;
+              font-size: 2.6rem;
+              gap: 15px;
+              li {
+                &:hover {
+                  transform: scale(1.1);
+                  color: #00a1ff;
+                }
+              }
+            }
+            .dataLink {
+              font-size: 2rem;
               &:hover {
                 transform: scale(1.1);
                 color: #00a1ff;
@@ -162,8 +186,9 @@
           width: auto;
           margin-bottom: 30px;
           background: #3d3d3d;
-          padding: 10px;
+          padding: 10px 10px 80px 10px;
           border-radius: 10px;
+          position: relative;
           &:last-child {
             margin-bottom: 30px;
           }
@@ -183,14 +208,17 @@
           }
           .desc {
             margin-top: 30px;
+            margin-bottom: 30px;
             font-size: 1.6rem;
             line-height: 1.5;
           }
           .iconList {
             display: flex;
-            margin-top: 30px;
+            width: 92%;
             font-size: 2.6rem;
             gap: 15px;
+            position: absolute;
+            bottom: 10px;
             li {
               &:hover {
                 transform: scale(1.1);
@@ -231,7 +259,7 @@
           width: auto;
           margin-bottom: 30px;
           background: #3d3d3d;
-          padding: 10px;
+          padding: 10px 10px 80px 10px;
           border-radius: 10px;
           &:last-child {
             margin-bottom: 30px;
