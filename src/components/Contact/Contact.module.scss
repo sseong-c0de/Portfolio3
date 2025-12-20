@@ -1,0 +1,30 @@
+.contact {
+  width: 100%;
+  margin-top: 50px;
+  .wrap {
+    color: #fff;
+    .desc {
+      font-size: 2.6rem;
+      text-align: center;
+      p:first-child {
+        margin-bottom: 10px;
+      }
+    }
+    .info {
+      width: 70%;
+      max-width: 300px;
+      margin: 50px auto 100px;
+      padding: 20px 0 20px 0;
+      font-size: 2rem;
+      text-align: center;
+      background: #3d3d3d;
+      border-radius: 10px;
+      a {
+        display: block;
+      }
+      a:first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

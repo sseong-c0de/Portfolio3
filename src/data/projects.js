@@ -1,0 +1,82 @@
+const projectData = [
+  {
+    id: "carhartt",
+    title: "Carhartt",
+    summary: ["디자인 재구성", "반응형 구현", "인터랙션 구현"],
+    stack: ["HTML", "CSS", "JS", "Jquery"],
+    desc: "실제 서비스를 기반으로 레이아웃을 재정리하고 jQuery·Swiper·Fullpage.js로 주요 인터랙션을 구현했습니다.",
+    link: "https://sseong-c0de.github.io/Carhartt/",
+  },
+  {
+    id: "tesla",
+    title: "Tesla",
+    summary: ["디자인 재구성", "반응형 구현", "탭 콘텐츠 전환 구현"],
+    stack: ["HTML", "CSS", "JS", "Jquery"],
+    desc: "버튼 선택에 따라 내용이 바뀌는 탭 UI로 구성하고,뉴스 영역은 슬라이더로 구현했습니다.",
+    link: "https://sseong-c0de.github.io/Tesla/",
+  },
+  {
+    id: "todolist",
+    title: "Todolist",
+    summary: ["할 일 추가", "완료,삭제액션", "간단UI 인터렉션"],
+    stack: ["HTML", "CSS", "JS", "React"],
+    desc: "입력창과 버튼 인터랙션을 중심으로 상태(state) 관리 기반으로 할 일을 추가·삭제할 수 있도록 구현했습니다.",
+    link: "https://sseong-c0de.github.io/Tesla/",
+  },
+  {
+    id: "filmfind",
+    title: "FilmFind",
+    summary: [
+      "영화·TV 콘텐츠 목록 UI 구현",
+      "카테고리 전환 기반 상태 관리",
+      "카드형 리스트 레이아웃 구성",
+    ],
+    stack: ["HTML", "CSS", "JS", "React"],
+    desc: "TMDB API를 활용해 영화·TV·인기 프로그램 등 카테고리 버튼 클릭 시 데이터가 즉시 전환되도록 구성하여콘텐츠 탐색 중심의 UI 흐름을 구현했습니다.",
+    link: "https://sseong-c0de.github.io/FilmFind/",
+  },
+  {
+    id: "myLog",
+    title: "MyLog(개발 진행중)",
+    summary: [
+      "캘린더 기반 웹 제작",
+      "상태 관리 로직 구현",
+      "사용자 기록 CRUD 기능 구현",
+    ],
+    stack: ["HTML", "CSS", "JS", "React"],
+    desc: "React 상태 관리를 활용해 월·연도 전환과 날짜 선택에 따른 데이터 변경 흐름을 구현했으며,사용자 행동에 따라 UI가 자연스럽게 갱신되도록 구성했습니다.",
+    link: "https://sseong-c0de.github.io/myLog/",
+  },
+  {
+    id: "electrolux",
+    title: "Electrolux",
+    summary: [
+      "디자인 재구성",
+      "메가 메뉴·상품 리스트 UI 구현",
+      "반응형 레이아웃 구성",
+    ],
+    stack: ["HTML", "CSS", "JS", "Jquery"],
+    desc: "Electrolux 공식 사이트를 참고해 레이아웃과 콘텐츠 흐름을 분석하고 개인 포트폴리오용으로 재구성한 리디자인 프로젝트입니다.",
+    link: "https://sseong-c0de.github.io/Electrolux/",
+  },
+  {
+    id: "portfolio",
+    title: "Portfolio",
+    summary: [
+      "React 컴포넌트 구조로 섹션 단위 UI 설계",
+      "재사용 가능한 컴포넌트 구성으로 유지보수성 강화",
+    ],
+    stack: ["HTML", "CSS", "JS", "React"],
+    desc: "React 컴포넌트 구조와 상태 관리를 활용해 구현한 개인 포트폴리오 사이트입니다.",
+    link: "https://sseong-c0de.github.io/portfolio/",
+  },
+  {
+    id: "portfolio2",
+    title: "Portfolio2",
+    summary: ["컨셉형 포트폴리오 UI 구성", "반응형 레이아웃 구성"],
+    stack: ["HTML", "CSS", "JS"],
+    desc: "요리 테마로 역량을 직관적으로 보여주는 개인 포트폴리오입니다.",
+    link: "https://sseong-c0de.github.io/Portfolio2/",
+  },
+];
+export default projectData;
