@@ -53,7 +53,7 @@ function Projects() {
                       target="blank"
                       className={styles.dataLink}
                     >
-                      더 보기
+                      페이지 보기
                     </a>
                   </ul>
                 </li>

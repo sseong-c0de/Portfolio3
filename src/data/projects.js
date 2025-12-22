@@ -78,5 +78,13 @@ const projectData = [
     desc: "요리 테마로 역량을 직관적으로 보여주는 개인 포트폴리오입니다.",
     link: "https://sseong-c0de.github.io/Portfolio2/",
   },
+  {
+    id: "portfolio3",
+    title: "Portfolio3",
+    summary: ["디자인 UI 구성", "반응형 레이아웃 구성"],
+    stack: ["HTML", "Sass", "JS", "React"],
+    desc: "요리 테마로 역량을 직관적으로 보여주는 개인 포트폴리오입니다.",
+    link: "https://sseong-c0de.github.io/Portfolio3/",
+  },
 ];
 export default projectData;
