@@ -12,7 +12,7 @@ function Header() {
     window.addEventListener("resize", handdleResize);
     const isScrolled = () => {
       if (window.innerWidth < 1024) return;
-      if (window.scrollY > 200) {
+      if (window.scrollY > 150) {
         setScrolled(true);
       } else {
         setScrolled(false);
