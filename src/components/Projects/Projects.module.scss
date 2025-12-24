@@ -13,6 +13,38 @@
       background: #00a1ff;
       border-radius: 10px;
     }
+    .filterBtn {
+      width: 30%;
+      margin: 50px auto 0;
+      display: flex;
+      justify-content: space-between;
+      .filter {
+        border: none;
+        background: #000218;
+        padding: 10px;
+        border-radius: 10px;
+        color: #00a1ff;
+        font-size: 1.8rem;
+        cursor: pointer;
+        transition: all 0.1s ease-in;
+
+        &:hover {
+          transform: translateY(-1px);
+        }
+
+        &:active {
+          transform: translateY(0) scale(0.98);
+          box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.25);
+        }
+      }
+      .active {
+        background: #00a1ff;
+        color: #fff;
+        border-color: rgba(0, 161, 255, 0.9);
+        box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.18);
+      }
+    }
+
     .cardWrap {
       width: 82.22%;
       margin: 50px auto 0;
@@ -22,6 +54,12 @@
         background: #3d3d3d;
         padding: 10px;
         border-radius: 10px;
+        &:hover {
+          a {
+            color: #00a1ff;
+            transform: scale(1.1);
+          }
+        }
         &:last-child {
           margin-bottom: 0;
         }
@@ -62,14 +100,12 @@
           }
           .dataLink {
             font-size: 2rem;
-            &:hover {
-              transform: scale(1.1);
-              color: #00a1ff;
-            }
+            transition: all 0.1s ease;
           }
         }
       }
     }
+
     .moreBtn {
       background: #00a1ff;
       border: none;
@@ -175,6 +211,37 @@
         text-align: center;
         background: #00a1ff;
         border-radius: 10px;
+      }
+      .filterBtn {
+        width: 20%;
+        margin: 50px auto 0;
+        display: flex;
+        justify-content: space-between;
+        .filter {
+          border: none;
+          background: #000218;
+          padding: 10px;
+          border-radius: 10px;
+          color: #00a1ff;
+          font-size: 1.8rem;
+          cursor: pointer;
+          transition: all 0.1s ease-in;
+
+          &:hover {
+            transform: translateY(-1px);
+          }
+
+          &:active {
+            transform: translateY(0) scale(0.98);
+            box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.25);
+          }
+        }
+        .active {
+          background: #00a1ff;
+          color: #fff;
+          border-color: rgba(0, 161, 255, 0.9);
+          box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.18);
+        }
       }
       .cardWrap {
         width: 70%;

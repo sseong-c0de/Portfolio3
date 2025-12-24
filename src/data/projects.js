@@ -21,7 +21,7 @@ const projectData = [
     summary: ["할 일 추가", "완료,삭제액션", "간단UI 인터렉션"],
     stack: ["HTML", "CSS", "JS", "React"],
     desc: "입력창과 버튼 인터랙션을 중심으로 상태(state) 관리 기반으로 할 일을 추가·삭제할 수 있도록 구현했습니다.",
-    link: "https://sseong-c0de.github.io/Tesla/",
+    link: "https://sseong-c0de.github.io/TodoList/",
   },
   {
     id: "filmfind",

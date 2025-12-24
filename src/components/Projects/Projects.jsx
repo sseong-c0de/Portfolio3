@@ -6,6 +6,12 @@ import { useEffect, useState } from "react";
 function Projects() {
   const [showAll, setShowAll] = useState(false);
   const [defaultCount, setDefaultCount] = useState(2);
+  const [filterBtn, setFilterBtn] = useState("ALL");
+
+  const filterData =
+    filterBtn === "ALL"
+      ? projectData
+      : projectData.filter((p) => p.stack.includes(filterBtn));
   useEffect(() => {
     const updateCount = () => {
       setDefaultCount(window.innerWidth >= 1500 ? 3 : 2);
@@ -15,15 +21,40 @@ function Projects() {
     return () => {
       window.removeEventListener("resize", updateCount);
     };
-  });
+  }, []);
   return (
     <section id="projects" className={styles.projects}>
       <div className={styles.wrap}>
         <div className={styles.title}>
           <h2>프로젝트</h2>
         </div>
+        <div className={styles.filterBtn}>
+          <button
+            type="button"
+            className={`${styles.filter} ${
+              filterBtn === "ALL" ? styles.active : ""
+            }`}
+            onClick={() => {
+              setFilterBtn("ALL");
+            }}
+          >
+            ALL
+          </button>
+          <button
+            type="button"
+            className={`${styles.filter} ${
+              filterBtn === "React" ? styles.active : ""
+            }`}
+            onClick={() => {
+              setFilterBtn("React");
+            }}
+          >
+            React
+          </button>
+        </div>
+
         <ul className={styles.cardWrap}>
-          {projectData
+          {filterData
             .slice(0, showAll ? projectData.length : defaultCount)
             .map((data, index) => {
               return (

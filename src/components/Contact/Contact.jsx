@@ -8,8 +8,12 @@ function Contact() {
           <p>언제든 편하게 연락주세요.</p>
         </div>
         <div className={styles.info}>
-          <a href="mailto:sseong5129@naver.com">이메일:sseong5129@naver.com</a>
-          <a href="tel:010-9400-5475">연락처:010.9400.5475</a>
+          <a href="mailto:sseong5129@naver.com">
+            이메일: <span>sseong5129@naver.com</span>
+          </a>
+          <a href="tel:010-9400-5475">
+            연락처: <span>010.9400.5475</span>
+          </a>
         </div>
       </div>
     </section>
