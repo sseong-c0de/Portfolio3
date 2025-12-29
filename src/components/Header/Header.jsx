@@ -53,16 +53,16 @@ function Header() {
           <div className={styles.gnb}>
             <ul className={styles.navName}>
               <li className={styles.navLink}>
-                <a href="#">홈</a>
+                <a href="#intro">홈</a>
               </li>
               <li className={styles.navLink}>
-                <a href="#">기술스택</a>
+                <a href="#skills">기술스택</a>
               </li>
               <li className={styles.navLink}>
-                <a href="#">프로젝트</a>
+                <a href="#projects">프로젝트</a>
               </li>
               <li className={styles.navLink}>
-                <a href="#">컨택트</a>
+                <a href="#contact">컨택트</a>
               </li>
             </ul>
           </div>

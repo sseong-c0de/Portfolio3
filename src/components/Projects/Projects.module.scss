@@ -26,10 +26,11 @@
         color: #00a1ff;
         font-size: 1.8rem;
         cursor: pointer;
-        transition: all 0.1s ease-in;
-
+        transition: all 0.3s ease-in;
         &:hover {
-          transform: translateY(-1px);
+          transform: translateY(-5px);
+          text-decoration: underline;
+          text-underline-offset: 6px;
         }
 
         &:active {
@@ -228,7 +229,9 @@
           transition: all 0.1s ease-in;
 
           &:hover {
-            transform: translateY(-1px);
+            transform: translateY(-5px);
+            text-decoration: underline;
+            text-underline-offset: 6px;
           }
 
           &:active {
