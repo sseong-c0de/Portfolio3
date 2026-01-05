@@ -27,6 +27,9 @@ function Projects() {
       <div className={styles.wrap}>
         <div className={styles.title}>
           <h2>프로젝트</h2>
+          <p className={styles.titleDesc}>
+            다양한 사이트들을 만들며 경험을 쌓았습니다.
+          </p>
         </div>
         <div className={styles.filterBtn}>
           <button
@@ -52,7 +55,6 @@ function Projects() {
             React
           </button>
         </div>
-
         <ul className={styles.cardWrap}>
           {filterData
             .slice(0, showAll ? projectData.length : defaultCount)

@@ -62,6 +62,9 @@ function Header() {
                 <a href="#projects">프로젝트</a>
               </li>
               <li className={styles.navLink}>
+                <a href="#experience">경력사항</a>
+              </li>
+              <li className={styles.navLink}>
                 <a href="#contact">컨택트</a>
               </li>
             </ul>

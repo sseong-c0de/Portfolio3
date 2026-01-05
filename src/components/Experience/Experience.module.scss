@@ -1,0 +1,272 @@
+.experience {
+  width: 100%;
+  margin-top: 100px;
+  .wrap {
+    width: 100%;
+    color: #fff;
+    .title {
+      margin: 0 auto;
+      line-height: 1.8;
+      font-size: 1.8rem;
+      text-align: center;
+      color: #00d17d;
+      border-radius: 10px;
+    }
+    .titleDesc {
+      font-size: 2.4rem;
+      color: #fff;
+    }
+    .cardWrap {
+      width: 82.22%;
+      margin: 50px auto 0;
+      .card {
+        width: 100%;
+        &:nth-of-type(2) {
+          margin-top: 50px;
+        }
+        .cardHeader {
+          font-size: 1.6rem;
+          margin-bottom: 10px;
+          .company {
+            margin-bottom: 10px;
+          }
+          span {
+            font-size: 1.4rem;
+          }
+        }
+        .cardBtn {
+          .descBtn {
+            font-size: 1.4rem;
+            background: none;
+            border: none;
+            color: #00d17d;
+            padding: 0;
+            cursor: pointer;
+          }
+        }
+        .cardDesc {
+          max-height: 0px;
+          opacity: 0;
+          overflow: hidden;
+          transition: max-height 0.1s ease-in;
+          margin-top: 30px;
+          font-size: 1.4rem;
+          background: #3d3d3d;
+          padding: 20px 0px 20px 10px;
+          border-radius: 10px;
+          &.open {
+            max-height: 500px;
+            opacity: 1;
+          }
+          .desc {
+            margin-bottom: 15px;
+            &:nth-of-type(4) {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .experience {
+    width: 100%;
+    margin-top: 100px;
+    .wrap {
+      width: 100%;
+      color: #fff;
+      .title {
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #00d17d;
+        border-radius: 10px;
+      }
+      .titleDesc {
+        font-size: 2.4rem;
+        color: #fff;
+      }
+      .cardWrap {
+        width: 78.6%;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto 0;
+        .card {
+          width: 48%;
+          &:nth-of-type(2) {
+            margin-top: 0px;
+          }
+          .cardHeader {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            .company {
+              margin-bottom: 10px;
+            }
+            span {
+              font-size: 1.4rem;
+            }
+          }
+          .cardBtn {
+            .descBtn {
+              font-size: 1.4rem;
+              background: none;
+              border: none;
+              color: #00d17d;
+              padding: 0;
+              cursor: pointer;
+            }
+          }
+          .cardDesc {
+            margin-top: 30px;
+            font-size: 1.6rem;
+            background: #3d3d3d;
+            padding: 20px 0px 20px 10px;
+            border-radius: 10px;
+            .desc {
+              margin-bottom: 15px;
+              &:nth-of-type(4) {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .experience {
+    width: 100%;
+    margin-top: 100px;
+    .wrap {
+      width: 100%;
+      color: #fff;
+      .title {
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #00d17d;
+        border-radius: 10px;
+      }
+      .titleDesc {
+        font-size: 2.4rem;
+        color: #fff;
+      }
+      .cardWrap {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto 0;
+        .card {
+          width: 48%;
+          &:nth-of-type(2) {
+            margin-top: 0px;
+          }
+          .cardHeader {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            .company {
+              margin-bottom: 10px;
+            }
+            span {
+              font-size: 1.6rem;
+            }
+          }
+          .cardBtn {
+            .descBtn {
+              font-size: 1.6rem;
+              background: none;
+              border: none;
+              color: #00d17d;
+              padding: 0;
+              cursor: pointer;
+            }
+          }
+          .cardDesc {
+            margin-top: 30px;
+            font-size: 1.8rem;
+            background: #3d3d3d;
+            padding: 20px 0px 20px 10px;
+            border-radius: 10px;
+            .desc {
+              margin-bottom: 15px;
+              &:nth-of-type(4) {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1500px) {
+  .experience {
+    width: 100%;
+    margin-top: 100px;
+    .wrap {
+      width: 100%;
+      color: #fff;
+      .title {
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #00d17d;
+        border-radius: 10px;
+      }
+      .titleDesc {
+        font-size: 2.4rem;
+        color: #fff;
+      }
+      .cardWrap {
+        width: 62.5%;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto 0;
+        .card {
+          width: 48%;
+          &:nth-of-type(2) {
+            margin-top: 0px;
+          }
+          .cardHeader {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            .company {
+              margin-bottom: 10px;
+            }
+            span {
+              font-size: 1.6rem;
+            }
+          }
+          .cardBtn {
+            .descBtn {
+              font-size: 1.6rem;
+              background: none;
+              border: none;
+              color: #00d17d;
+              padding: 0;
+              cursor: pointer;
+            }
+          }
+          .cardDesc {
+            margin-top: 30px;
+            font-size: 1.8rem;
+            background: #3d3d3d;
+            padding: 20px 0px 20px 10px;
+            border-radius: 10px;
+            .desc {
+              margin-bottom: 15px;
+              &:nth-of-type(4) {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

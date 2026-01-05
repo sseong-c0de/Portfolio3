@@ -1,17 +1,20 @@
 .projects {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
   .wrap {
     width: 100%;
     color: #fff;
     .title {
-      width: 60%;
       margin: 0 auto;
       line-height: 1.8;
-      font-size: 2.4rem;
+      font-size: 1.8rem;
       text-align: center;
-      background: #00a1ff;
+      color: #00d17d;
       border-radius: 10px;
+    }
+    .titleDesc {
+      font-size: 2.4rem;
+      color: #fff;
     }
     .filterBtn {
       width: 30%;
@@ -23,7 +26,7 @@
         background: #000218;
         padding: 10px;
         border-radius: 10px;
-        color: #00a1ff;
+        color: #00d17d;
         font-size: 1.8rem;
         cursor: pointer;
         transition: all 0.3s ease-in;
@@ -32,24 +35,22 @@
           text-decoration: underline;
           text-underline-offset: 6px;
         }
-
         &:active {
           transform: translateY(0) scale(0.98);
-          box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.25);
+          box-shadow: 0 0 0 3px rgba(0, 255, 8, 0.25);
         }
       }
       .active {
-        background: #00a1ff;
+        background: #00d17d;
         color: #fff;
         border-color: rgba(0, 161, 255, 0.9);
-        box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.18);
+        box-shadow: 0 0 0 3px rgba(0, 255, 8, 0.25);
       }
     }
 
     .cardWrap {
       width: 82.22%;
       margin: 50px auto 0;
-
       .card {
         margin-bottom: 30px;
         background: #3d3d3d;
@@ -57,7 +58,7 @@
         border-radius: 10px;
         &:hover {
           a {
-            color: #00a1ff;
+            color: #00d17d;
             transform: scale(1.1);
           }
         }
@@ -65,12 +66,12 @@
           margin-bottom: 0;
         }
         .cardTitle {
-          font-size: 2.2rem;
+          font-size: 1.8rem;
           text-align: center;
           margin-bottom: 30px;
         }
         .summaryList {
-          font-size: 1.8rem;
+          font-size: 1.6rem;
           li {
             margin-bottom: 10px;
             &:last-child {
@@ -81,7 +82,7 @@
         .desc {
           margin-top: 30px;
           margin-bottom: 30px;
-          font-size: 1.6rem;
+          font-size: 1.4rem;
           line-height: 1.5;
         }
         .iconList {
@@ -95,29 +96,27 @@
             li {
               &:hover {
                 transform: scale(1.1);
-                color: #00a1ff;
+                color: #00d17d;
               }
             }
           }
           .dataLink {
-            font-size: 2rem;
+            font-size: 1.6rem;
             transition: all 0.1s ease;
           }
         }
       }
     }
-
     .moreBtn {
-      background: #00a1ff;
+      background: #00d17d;
       border: none;
       color: #fff;
-      // width: 80px;
-      // height: 40px;
       padding: 10px;
       border-radius: 10px;
       font-size: 1.8rem;
       margin: 50px auto 0;
       display: block;
+      cursor: pointer;
     }
   }
 }
@@ -129,12 +128,10 @@
       width: 100%;
       color: #fff;
       .title {
-        width: 35%;
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         text-align: center;
-        background: #00a1ff;
         border-radius: 10px;
       }
       .cardWrap {
@@ -150,7 +147,7 @@
             margin-bottom: 0;
           }
           .cardTitle {
-            font-size: 2.2rem;
+            font-size: 2rem;
             text-align: center;
             margin-bottom: 30px;
           }
@@ -180,15 +177,15 @@
               li {
                 &:hover {
                   transform: scale(1.1);
-                  color: #00a1ff;
+                  color: #00d17d;
                 }
               }
             }
             .dataLink {
-              font-size: 2rem;
+              font-size: 1.8rem;
               &:hover {
                 transform: scale(1.1);
-                color: #00a1ff;
+                color: #00d17d;
               }
             }
           }
@@ -205,12 +202,10 @@
       width: 100%;
       color: #fff;
       .title {
-        width: 35%;
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         text-align: center;
-        background: #00a1ff;
         border-radius: 10px;
       }
       .filterBtn {
@@ -223,7 +218,7 @@
           background: #000218;
           padding: 10px;
           border-radius: 10px;
-          color: #00a1ff;
+          color: #00d17d;
           font-size: 1.8rem;
           cursor: pointer;
           transition: all 0.1s ease-in;
@@ -236,14 +231,14 @@
 
           &:active {
             transform: translateY(0) scale(0.98);
-            box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.25);
+            box-shadow: 0 0 0 3px rgba(0, 255, 8, 0.25);
           }
         }
         .active {
-          background: #00a1ff;
+          background: #00d17d;
           color: #fff;
           border-color: rgba(0, 161, 255, 0.9);
-          box-shadow: 0 0 0 3px rgba(0, 161, 255, 0.18);
+          box-shadow: 0 0 0 3px rgba(0, 255, 8, 0.25);
         }
       }
       .cardWrap {
@@ -263,12 +258,12 @@
             margin-bottom: 30px;
           }
           .cardTitle {
-            font-size: 2.4rem;
+            font-size: 2rem;
             text-align: center;
             margin-bottom: 30px;
           }
           .summaryList {
-            font-size: 2rem;
+            font-size: 1.8rem;
             li {
               margin-bottom: 10px;
               &:last-child {
@@ -292,7 +287,7 @@
             li {
               &:hover {
                 transform: scale(1.1);
-                color: #00a1ff;
+                color: #00d17d;
               }
             }
           }
@@ -309,14 +304,44 @@
       width: 100%;
       color: #fff;
       .title {
-        width: 35%;
-        max-width: 350px;
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         text-align: center;
-        background: #00a1ff;
         border-radius: 10px;
+      }
+      .filterBtn {
+        width: 20%;
+        margin: 50px auto 0;
+        display: flex;
+        justify-content: space-between;
+        .filter {
+          border: none;
+          background: #000218;
+          padding: 10px;
+          border-radius: 10px;
+          color: #00d17d;
+          font-size: 1.8rem;
+          cursor: pointer;
+          transition: all 0.1s ease-in;
+
+          &:hover {
+            transform: translateY(-5px);
+            text-decoration: underline;
+            text-underline-offset: 6px;
+          }
+
+          &:active {
+            transform: translateY(0) scale(0.98);
+            box-shadow: 0 0 0 3px rgba(0, 255, 8, 0.25);
+          }
+        }
+        .active {
+          background: #00d17d;
+          color: #fff;
+          border-color: rgba(0, 161, 255, 0.9);
+          box-shadow: 0 0 0 3px rgba(0, 255, 8, 0.25);
+        }
       }
       .cardWrap {
         width: 62.5%;
@@ -335,12 +360,12 @@
             margin-bottom: 30px;
           }
           .cardTitle {
-            font-size: 2.4rem;
+            font-size: 2rem;
             text-align: center;
             margin-bottom: 30px;
           }
           .summaryList {
-            font-size: 2rem;
+            font-size: 1.8rem;
             li {
               margin-bottom: 10px;
               &:last-child {
@@ -361,7 +386,7 @@
             li {
               &:hover {
                 transform: scale(1.1);
-                color: #00a1ff;
+                color: #00d17d;
               }
             }
           }

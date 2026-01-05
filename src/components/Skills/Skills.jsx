@@ -6,7 +6,9 @@ function Skills() {
       <div className={styles.wrap}>
         <div className={styles.title}>
           <h2>기술스택 및 디자인툴</h2>
+          <p className={styles.titleDesc}>아래의 기술들을 사용이 가능합니다.</p>
         </div>
+
         <ul className={styles.icons}>
           {icons.map((item, index) => {
             const Icon = item.icon;
@@ -17,12 +19,10 @@ function Skills() {
             );
           })}
         </ul>
-        <p className={styles.desc}>
+        {/* <p className={styles.desc}>
           <span>구조적인 마크업과 반응형</span>
-          <span>설계를 기반으로</span>
-          <span>실제 서비스 수준의</span>
           <span>퍼블리싱을 구현합니다.</span>
-        </p>
+        </p> */}
       </div>
     </section>
   );
