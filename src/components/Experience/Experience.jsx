@@ -9,7 +9,9 @@ function Experience() {
       <div className={styles.wrap}>
         <div className={styles.title}>
           <h2>경력 사항</h2>
-          <p className={styles.titleDesc}>아래의 기술들을 사용이 가능합니다.</p>
+          <p className={styles.titleDesc}>
+            여러 현장에서의 경험을 바탕으로 책임감을 키웠습니다.
+          </p>
         </div>
         <ul className={styles.cardWrap}>
           <li className={styles.card}>
@@ -25,7 +27,12 @@ function Experience() {
                   setOpen1(!open1);
                 }}
               >
-                주요 업무 내용 <span>&gt;</span>
+                주요 업무 내용{" "}
+                <span
+                  className={`${styles.arrow} ${open1 ? styles.rotate : ""}`}
+                >
+                  &gt;
+                </span>
               </button>
             </div>
             <ul className={`${styles.cardDesc} ${open1 ? styles.open : ""}`}>
@@ -50,7 +57,12 @@ function Experience() {
                   setOpen2(!open2);
                 }}
               >
-                주요 업무 내용 <span>&gt;</span>
+                주요 업무 내용{" "}
+                <span
+                  className={`${styles.arrow} ${open2 ? styles.rotate : ""}`}
+                >
+                  &gt;
+                </span>
               </button>
             </div>
             <ul className={`${styles.cardDesc} ${open2 ? styles.open : ""}`}>

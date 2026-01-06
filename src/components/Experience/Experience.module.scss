@@ -42,6 +42,14 @@
             color: #00d17d;
             padding: 0;
             cursor: pointer;
+            .arrow {
+              display: inline-block;
+              transform-origin: center;
+              transition: transform 0.1s ease-in;
+              &.rotate {
+                transform: rotate(90deg);
+              }
+            }
           }
         }
         .cardDesc {
