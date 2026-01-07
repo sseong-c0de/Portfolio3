@@ -7,13 +7,15 @@
     .title {
       margin: 0 auto;
       line-height: 1.8;
-      font-size: 1.8rem;
+      font-size: 18px;
       text-align: center;
       color: #00d17d;
       border-radius: 10px;
     }
     .titleDesc {
-      font-size: 2.4rem;
+      width: 82.22%;
+      margin: 0 auto;
+      font-size: 24px;
       color: #fff;
     }
     .cardWrap {
@@ -25,18 +27,20 @@
           margin-top: 50px;
         }
         .cardHeader {
-          font-size: 1.6rem;
+          font-size: 16px;
           margin-bottom: 10px;
+          text-align: center;
           .company {
             margin-bottom: 10px;
           }
           span {
-            font-size: 1.4rem;
+            font-size: 14px;
           }
         }
         .cardBtn {
+          text-align: center;
           .descBtn {
-            font-size: 1.4rem;
+            font-size: 14px;
             background: none;
             border: none;
             color: #00d17d;
@@ -58,7 +62,7 @@
           overflow: hidden;
           transition: max-height 0.1s ease-in;
           margin-top: 30px;
-          font-size: 1.4rem;
+          font-size: 14px;
           background: #3d3d3d;
           padding: 20px 0px 20px 10px;
           border-radius: 10px;
@@ -87,38 +91,39 @@
       .title {
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 1.8rem;
+        font-size: 18px;
         text-align: center;
         color: #00d17d;
         border-radius: 10px;
       }
       .titleDesc {
-        font-size: 2.4rem;
+        width: 100%;
+        font-size: 24px;
         color: #fff;
       }
       .cardWrap {
         width: 78.6%;
-        display: flex;
-        justify-content: space-between;
         margin: 50px auto 0;
         .card {
-          width: 48%;
+          width: 100%;
           &:nth-of-type(2) {
-            margin-top: 0px;
+            margin-top: 50px;
           }
           .cardHeader {
-            font-size: 2rem;
+            font-size: 20px;
             margin-bottom: 10px;
+            text-align: left;
             .company {
               margin-bottom: 10px;
             }
             span {
-              font-size: 1.4rem;
+              font-size: 14px;
             }
           }
           .cardBtn {
+            text-align: left;
             .descBtn {
-              font-size: 1.4rem;
+              font-size: 14px;
               background: none;
               border: none;
               color: #00d17d;
@@ -128,7 +133,7 @@
           }
           .cardDesc {
             margin-top: 30px;
-            font-size: 1.6rem;
+            font-size: 16px;
             background: #3d3d3d;
             padding: 20px 0px 20px 10px;
             border-radius: 10px;
@@ -154,38 +159,41 @@
       .title {
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 1.8rem;
+        font-size: 18px;
         text-align: center;
         color: #00d17d;
         border-radius: 10px;
       }
       .titleDesc {
-        font-size: 2.4rem;
+        font-size: 24px;
         color: #fff;
       }
       .cardWrap {
         width: 70%;
-        display: flex;
-        justify-content: space-between;
+        // display: flex;
+        // justify-content: space-between;
         margin: 50px auto 0;
         .card {
-          width: 48%;
+          width: 100%;
+
           &:nth-of-type(2) {
-            margin-top: 0px;
+            margin-top: 50px;
           }
           .cardHeader {
-            font-size: 2rem;
+            text-align: center;
+            font-size: 20px;
             margin-bottom: 10px;
             .company {
               margin-bottom: 10px;
             }
             span {
-              font-size: 1.6rem;
+              font-size: 16px;
             }
           }
           .cardBtn {
+            text-align: center;
             .descBtn {
-              font-size: 1.6rem;
+              font-size: 16px;
               background: none;
               border: none;
               color: #00d17d;
@@ -194,11 +202,13 @@
             }
           }
           .cardDesc {
-            margin-top: 30px;
-            font-size: 1.8rem;
+            width: 50%;
+            margin: 30px auto 0;
+            font-size: 18px;
             background: #3d3d3d;
             padding: 20px 0px 20px 10px;
             border-radius: 10px;
+
             .desc {
               margin-bottom: 15px;
               &:nth-of-type(4) {
@@ -221,38 +231,36 @@
       .title {
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 1.8rem;
+        font-size: 18px;
         text-align: center;
         color: #00d17d;
         border-radius: 10px;
       }
       .titleDesc {
-        font-size: 2.4rem;
+        font-size: 24px;
         color: #fff;
       }
       .cardWrap {
         width: 62.5%;
-        display: flex;
-        justify-content: space-between;
         margin: 50px auto 0;
         .card {
-          width: 48%;
+          width: 100%;
           &:nth-of-type(2) {
-            margin-top: 0px;
+            margin-top: 50px;
           }
           .cardHeader {
-            font-size: 2rem;
+            font-size: 20px;
             margin-bottom: 10px;
             .company {
               margin-bottom: 10px;
             }
             span {
-              font-size: 1.6rem;
+              font-size: 16px;
             }
           }
           .cardBtn {
             .descBtn {
-              font-size: 1.6rem;
+              font-size: 16px;
               background: none;
               border: none;
               color: #00d17d;
@@ -261,8 +269,9 @@
             }
           }
           .cardDesc {
-            margin-top: 30px;
-            font-size: 1.8rem;
+            width: 40%;
+            margin: 30px auto 0;
+            font-size: 18px;
             background: #3d3d3d;
             padding: 20px 0px 20px 10px;
             border-radius: 10px;

@@ -7,13 +7,13 @@
     .title {
       margin: 0 auto;
       line-height: 1.8;
-      font-size: 1.8rem;
+      font-size: 18px;
       text-align: center;
       color: #00d17d;
       border-radius: 10px;
     }
     .titleDesc {
-      font-size: 2.4rem;
+      font-size: 24px;
       color: #fff;
     }
     .filterBtn {
@@ -27,7 +27,7 @@
         padding: 10px;
         border-radius: 10px;
         color: #00d17d;
-        font-size: 1.8rem;
+        font-size: 18px;
         cursor: pointer;
         transition: all 0.3s ease-in;
         &:hover {
@@ -54,7 +54,7 @@
       .card {
         margin-bottom: 30px;
         background: #3d3d3d;
-        padding: 10px;
+        padding: 20px;
         border-radius: 10px;
         &:hover {
           a {
@@ -66,12 +66,13 @@
           margin-bottom: 0;
         }
         .cardTitle {
-          font-size: 1.8rem;
+          font-size: 22px;
           text-align: center;
           margin-bottom: 30px;
+          font-weight: bold;
         }
         .summaryList {
-          font-size: 1.6rem;
+          font-size: 16px;
           li {
             margin-bottom: 10px;
             &:last-child {
@@ -82,7 +83,7 @@
         .desc {
           margin-top: 30px;
           margin-bottom: 30px;
-          font-size: 1.4rem;
+          font-size: 14px;
           line-height: 1.5;
         }
         .iconList {
@@ -91,7 +92,7 @@
           align-items: center;
           .iconBox {
             display: flex;
-            font-size: 2.6rem;
+            font-size: 26px;
             gap: 15px;
             li {
               &:hover {
@@ -101,7 +102,7 @@
             }
           }
           .dataLink {
-            font-size: 1.6rem;
+            font-size: 16px;
             transition: all 0.1s ease;
           }
         }
@@ -113,7 +114,7 @@
       color: #fff;
       padding: 10px;
       border-radius: 10px;
-      font-size: 1.8rem;
+      font-size: 18px;
       margin: 50px auto 0;
       display: block;
       cursor: pointer;
@@ -123,14 +124,14 @@
 @media screen and (min-width: 768px) {
   .projects {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     .wrap {
       width: 100%;
       color: #fff;
       .title {
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 1.8rem;
+        font-size: 18px;
         text-align: center;
         border-radius: 10px;
       }
@@ -141,18 +142,18 @@
         .card {
           margin-bottom: 30px;
           background: #3d3d3d;
-          padding: 20px;
+          padding: 30px;
           border-radius: 10px;
           &:last-child {
             margin-bottom: 0;
           }
           .cardTitle {
-            font-size: 2rem;
+            font-size: 24px;
             text-align: center;
             margin-bottom: 30px;
           }
           .summaryList {
-            font-size: 1.8rem;
+            font-size: 18px;
             li {
               margin-bottom: 10px;
               &:last-child {
@@ -163,7 +164,7 @@
           .desc {
             margin-top: 30px;
             margin-bottom: 30px;
-            font-size: 1.6rem;
+            font-size: 16px;
             line-height: 1.5;
           }
           .iconList {
@@ -172,7 +173,7 @@
             align-items: center;
             .iconBox {
               display: flex;
-              font-size: 2.6rem;
+              font-size: 26px;
               gap: 15px;
               li {
                 &:hover {
@@ -182,7 +183,7 @@
               }
             }
             .dataLink {
-              font-size: 1.8rem;
+              font-size: 18px;
               &:hover {
                 transform: scale(1.1);
                 color: #00d17d;
@@ -197,14 +198,14 @@
 @media screen and (min-width: 1024px) {
   .projects {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     .wrap {
       width: 100%;
       color: #fff;
       .title {
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 1.8rem;
+        font-size: 18px;
         text-align: center;
         border-radius: 10px;
       }
@@ -219,7 +220,7 @@
           padding: 10px;
           border-radius: 10px;
           color: #00d17d;
-          font-size: 1.8rem;
+          font-size: 18px;
           cursor: pointer;
           transition: all 0.1s ease-in;
 
@@ -251,19 +252,19 @@
           width: auto;
           margin-bottom: 30px;
           background: #3d3d3d;
-          padding: 10px 10px 80px 10px;
+          padding: 20px 20px 80px 20px;
           border-radius: 10px;
           position: relative;
           &:last-child {
             margin-bottom: 30px;
           }
           .cardTitle {
-            font-size: 2rem;
+            font-size: 24px;
             text-align: center;
             margin-bottom: 30px;
           }
           .summaryList {
-            font-size: 1.8rem;
+            font-size: 18px;
             li {
               margin-bottom: 10px;
               &:last-child {
@@ -274,13 +275,13 @@
           .desc {
             margin-top: 30px;
             margin-bottom: 30px;
-            font-size: 1.6rem;
+            font-size: 16px;
             line-height: 1.5;
           }
           .iconList {
             display: flex;
-            width: 92%;
-            font-size: 2.6rem;
+            width: 85%;
+            font-size: 26px;
             gap: 15px;
             position: absolute;
             bottom: 10px;
@@ -299,14 +300,14 @@
 @media screen and (min-width: 1500px) {
   .projects {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     .wrap {
       width: 100%;
       color: #fff;
       .title {
         margin: 0 auto;
         line-height: 1.8;
-        font-size: 1.8rem;
+        font-size: 18px;
         text-align: center;
         border-radius: 10px;
       }
@@ -321,7 +322,7 @@
           padding: 10px;
           border-radius: 10px;
           color: #00d17d;
-          font-size: 1.8rem;
+          font-size: 18px;
           cursor: pointer;
           transition: all 0.1s ease-in;
 
@@ -354,18 +355,18 @@
           width: auto;
           margin-bottom: 30px;
           background: #3d3d3d;
-          padding: 10px 10px 80px 10px;
+          padding: 20px 20px 80px 20px;
           border-radius: 10px;
           &:last-child {
             margin-bottom: 30px;
           }
           .cardTitle {
-            font-size: 2rem;
+            font-size: 24px;
             text-align: center;
             margin-bottom: 30px;
           }
           .summaryList {
-            font-size: 1.8rem;
+            font-size: 18px;
             li {
               margin-bottom: 10px;
               &:last-child {
@@ -375,13 +376,14 @@
           }
           .desc {
             margin-top: 30px;
-            font-size: 1.6rem;
+            font-size: 16px;
             line-height: 1.5;
           }
           .iconList {
+            width: 88%;
             display: flex;
             margin-top: 30px;
-            font-size: 2.6rem;
+            font-size: 26px;
             gap: 15px;
             li {
               &:hover {

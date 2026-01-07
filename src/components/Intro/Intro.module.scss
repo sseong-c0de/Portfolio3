@@ -1,8 +1,8 @@
 .intro {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
   .textBox {
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -20,9 +20,9 @@
 @media screen and (min-width: 768px) {
   .intro {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     .textBox {
-      font-size: 3.6rem;
+      font-size: 36px;
       color: #fff;
       text-align: center;
       p {
@@ -40,9 +40,9 @@
 @media screen and (min-width: 1024px) {
   .intro {
     width: 100%;
-    margin-top: 75px;
+    margin-top: 100px;
     .textBox {
-      font-size: 4.8rem;
+      font-size: 48px;
       color: #fff;
       text-align: center;
       p {
@@ -62,7 +62,7 @@
     width: 100%;
     margin-top: 100px;
     .textBox {
-      font-size: 4.8rem;
+      font-size: 48px;
       color: #fff;
       text-align: center;
       p {
