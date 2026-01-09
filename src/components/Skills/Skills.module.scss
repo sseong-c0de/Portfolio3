@@ -1,36 +1,39 @@
+@use "../../styles/token.scss" as *;
 .skills {
   width: 100%;
   margin-top: 100px;
   .wrap {
     width: 100%;
-    color: #fff;
+    color: $white;
     .title {
+      width: 82.22%;
       margin: 0 auto;
       line-height: 1.8;
       font-size: 18px;
       text-align: center;
-      color: #00d17d;
+      color: $mainColor;
       border-radius: 10px;
     }
     .titleDesc {
       text-align: center;
       font-size: 24px;
       margin-top: 5px;
-      color: #fff;
+      color: $white;
     }
     .icons {
-      width: 82.22%;
+      width: 95%;
       margin: 30px auto 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include flex(space-between);
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
     }
     .icon {
       font-size: 40px;
-      transition: all 0.2s ease;
+      transition: all $motionFast;
       &:hover {
         transform: scale(1.1);
-        color: #00d17d;
+        color: $mainColor;
       }
     }
   }
@@ -41,13 +44,13 @@
     margin-top: 100px;
     .wrap {
       width: 100%;
-      color: #fff;
+      color: $white;
       .title {
         margin: 0 auto;
         line-height: 1.8;
         font-size: 18px;
         text-align: center;
-        color: #00d17d;
+        color: $mainColor;
         border-radius: 10px;
       }
       .titleDesc {
@@ -56,16 +59,17 @@
       .icons {
         width: 78.6%;
         margin: 50px auto 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex(space-between);
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
       }
       .icon {
         font-size: 40px;
         transition: all 0.2s ease;
         &:hover {
           transform: scale(1.1);
-          color: #00d17d;
+          color: $mainColor;
         }
       }
     }
@@ -77,13 +81,13 @@
     margin-top: 100px;
     .wrap {
       width: 100%;
-      color: #fff;
+      color: $white;
       .title {
         margin: 0 auto;
         line-height: 2;
         font-size: 18px;
         text-align: center;
-        color: #00d17d;
+        color: $mainColor;
         border-radius: 10px;
       }
       .titleDesc {
@@ -92,16 +96,17 @@
       .icons {
         width: 70%;
         margin: 50px auto 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex(space-between);
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
       }
       .icon {
         font-size: 50px;
         transition: all 0.2s ease;
         &:hover {
           transform: scale(1.1);
-          color: #00d17d;
+          color: $mainColor;
         }
       }
     }
@@ -113,13 +118,13 @@
     margin-top: 100px;
     .wrap {
       width: 100%;
-      color: #fff;
+      color: $white;
       .title {
         margin: 0 auto;
         line-height: 1.8;
         font-size: 18px;
         text-align: center;
-        color: #00d17d;
+        color: $mainColor;
         border-radius: 10px;
       }
       .titleDesc {
@@ -129,16 +134,17 @@
         width: 62.5%;
         max-width: 1200px;
         margin: 50px auto 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex(space-between);
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
       }
       .icon {
         font-size: 50px;
         transition: all 0.2s ease;
         &:hover {
           transform: scale(1.1);
-          color: #00d17d;
+          color: $mainColor;
         }
       }
     }

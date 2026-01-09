@@ -1,22 +1,23 @@
+@use "../../styles/token.scss" as *;
 .experience {
   width: 100%;
   margin-top: 100px;
   .wrap {
     width: 100%;
-    color: #fff;
+    color: $white;
     .title {
       margin: 0 auto;
       line-height: 1.8;
       font-size: 18px;
       text-align: center;
-      color: #00d17d;
+      color: $mainColor;
       border-radius: 10px;
     }
     .titleDesc {
       width: 82.22%;
       margin: 0 auto;
       font-size: 24px;
-      color: #fff;
+      color: $white;
     }
     .cardWrap {
       width: 82.22%;
@@ -43,7 +44,7 @@
             font-size: 14px;
             background: none;
             border: none;
-            color: #00d17d;
+            color: $mainColor;
             padding: 0;
             cursor: pointer;
             .arrow {
@@ -87,19 +88,19 @@
     margin-top: 100px;
     .wrap {
       width: 100%;
-      color: #fff;
+      color: $white;
       .title {
         margin: 0 auto;
         line-height: 1.8;
         font-size: 18px;
         text-align: center;
-        color: #00d17d;
+        color: $mainColor;
         border-radius: 10px;
       }
       .titleDesc {
         width: 100%;
         font-size: 24px;
-        color: #fff;
+        color: $white;
       }
       .cardWrap {
         width: 78.6%;
@@ -126,7 +127,7 @@
               font-size: 14px;
               background: none;
               border: none;
-              color: #00d17d;
+              color: $mainColor;
               padding: 0;
               cursor: pointer;
             }
@@ -155,18 +156,18 @@
     margin-top: 100px;
     .wrap {
       width: 100%;
-      color: #fff;
+      color: $white;
       .title {
         margin: 0 auto;
         line-height: 1.8;
         font-size: 18px;
         text-align: center;
-        color: #00d17d;
+        color: $mainColor;
         border-radius: 10px;
       }
       .titleDesc {
         font-size: 24px;
-        color: #fff;
+        color: $white;
       }
       .cardWrap {
         width: 70%;
@@ -196,7 +197,7 @@
               font-size: 16px;
               background: none;
               border: none;
-              color: #00d17d;
+              color: $mainColor;
               padding: 0;
               cursor: pointer;
             }
@@ -227,18 +228,18 @@
     margin-top: 100px;
     .wrap {
       width: 100%;
-      color: #fff;
+      color: $white;
       .title {
         margin: 0 auto;
         line-height: 1.8;
         font-size: 18px;
         text-align: center;
-        color: #00d17d;
+        color: $mainColor;
         border-radius: 10px;
       }
       .titleDesc {
         font-size: 24px;
-        color: #fff;
+        color: $white;
       }
       .cardWrap {
         width: 62.5%;
@@ -263,7 +264,7 @@
               font-size: 16px;
               background: none;
               border: none;
-              color: #00d17d;
+              color: $mainColor;
               padding: 0;
               cursor: pointer;
             }

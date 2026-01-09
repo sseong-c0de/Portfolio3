@@ -1,0 +1,12 @@
+// Color
+$mainColor: #00d17d;
+$white: #fff;
+$black: #000;
+// 모션
+$motionFast: 0.2s ease;
+// flex 중앙정렬
+@mixin flex($jc: center, $ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}

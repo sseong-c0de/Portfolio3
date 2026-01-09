@@ -1,16 +1,18 @@
+@use "../../styles/token.scss" as *;
 .wrap {
   width: 100%;
   margin-top: 10px;
   .inner {
     width: 82.22%;
     margin: 0 auto;
-    display: flex;
     position: relative;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flex();
   }
   .h1Wrap {
-    color: #00d17d;
+    color: $mainColor;
     font-size: 52px;
     text-align: center;
   }
@@ -32,7 +34,7 @@
   }
   nav {
     width: 82.22%;
-    color: #fff;
+    color: $white;
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
@@ -44,7 +46,7 @@
 
     .gnb {
       display: inline-block;
-      background: #00d17d;
+      background: $mainColor;
       text-align: center;
       border-radius: 10px;
     }
@@ -55,7 +57,7 @@
         margin-bottom: 10px;
         cursor: pointer;
         &:hover {
-          color: #00804d;
+          color: $mainColor;
         }
         &:last-child {
           margin-bottom: 0;
@@ -76,13 +78,14 @@
     .inner {
       width: 78.6%;
       margin: 0 auto;
-      display: flex;
       position: relative;
-      justify-content: center;
-      align-items: center;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      @include flex();
     }
     .h1Wrap {
-      color: #00d17d;
+      color: $mainColor;
       font-size: 52px;
       text-align: center;
     }
@@ -104,14 +107,14 @@
     }
     nav {
       width: 78.6%;
-      color: #fff;
+      color: $white;
       display: flex;
       justify-content: flex-end;
       margin: 10px auto 0;
 
       .gnb {
         display: inline-block;
-        background: #00d17d;
+        background: $mainColor;
         text-align: center;
         border-radius: 10px;
       }
@@ -141,7 +144,7 @@
       align-items: center;
     }
     .h1Wrap {
-      color: #00d17d;
+      color: $mainColor;
       font-size: 82px;
       text-align: center;
     }
@@ -164,7 +167,7 @@
     }
     nav {
       width: auto;
-      color: #fff;
+      color: $white;
       display: block;
       position: fixed;
       right: 30px;
@@ -172,7 +175,7 @@
       margin: 10px auto 0;
       .gnb {
         display: inline-block;
-        background: #00d17d;
+        background: $mainColor;
         text-align: center;
         border-radius: 10px;
       }
@@ -208,7 +211,7 @@
       align-items: center;
     }
     .h1Wrap {
-      color: #00d17d;
+      color: $mainColor;
       font-size: 82px;
       text-align: center;
     }
@@ -231,7 +234,7 @@
     }
     nav {
       width: auto;
-      color: #fff;
+      color: $white;
       display: block;
       position: fixed;
       right: 30px;

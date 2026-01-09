@@ -1,15 +1,16 @@
+@use "../../styles/token.scss" as *;
 .intro {
   width: 100%;
   margin-top: 100px;
   .textBox {
     font-size: 30px;
     font-weight: bold;
-    color: #fff;
+    color: $white;
     text-align: center;
     p {
       margin-bottom: 15px;
       span {
-        color: #00d17d;
+        color: $mainColor;
       }
     }
     &:last-child {
@@ -23,12 +24,12 @@
     margin-top: 100px;
     .textBox {
       font-size: 36px;
-      color: #fff;
+      color: $white;
       text-align: center;
       p {
         margin-bottom: 15px;
         span {
-          color: #00d17d;
+          color: $mainColor;
         }
       }
       &:last-child {
@@ -43,12 +44,12 @@
     margin-top: 100px;
     .textBox {
       font-size: 48px;
-      color: #fff;
+      color: $white;
       text-align: center;
       p {
         margin-bottom: 10px;
         span {
-          color: #00d17d;
+          color: $mainColor;
         }
       }
       &:last-child {
@@ -63,12 +64,12 @@
     margin-top: 100px;
     .textBox {
       font-size: 48px;
-      color: #fff;
+      color: $white;
       text-align: center;
       p {
         margin-bottom: 10px;
         span {
-          color: #00d17d;
+          color: $mainColor;
         }
       }
       &:last-child {

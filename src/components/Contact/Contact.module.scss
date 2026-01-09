@@ -1,8 +1,9 @@
+@use "../../styles/token.scss" as *;
 .contact {
   width: 100%;
   margin-top: 100px;
   .wrap {
-    color: #fff;
+    color: $white;
     .desc {
       font-size: 22px;
       text-align: center;
@@ -21,7 +22,7 @@
         display: block;
         &:hover {
           span {
-            color: #00d17d;
+            color: $mainColor;
           }
         }
       }
