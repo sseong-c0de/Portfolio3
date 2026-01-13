@@ -1,7 +1,7 @@
 import styles from "./NoteInner.module.scss";
-function NoteInner({ useData, setUseData }) {
+function NoteInner({ useData, setUseData, useClick }) {
   return (
-    <div className={styles.wrap}>
+    <div className={`${styles.wrap} ${useClick ? styles.open : ""}`}>
       <div className={styles.inner}>
         <div className={styles.title}>
           <h3>{useData.title}</h3>

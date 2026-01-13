@@ -4,6 +4,7 @@ import NoteInner from "./noteInner";
 import { useState } from "react";
 function Note() {
   const [useData, setUseData] = useState(null);
+  const [useClick, setUseClick] = useState(false);
   return (
     <section id="Note" className={styles.note}>
       <div className={styles.wrap}>
@@ -15,27 +16,37 @@ function Note() {
         </div>
         <div className={styles.btnWrap}>
           {noteData.map((data, index) => {
-            const isOpen = useData?.id === data.id;
             return (
               <div key={index} className={styles.mapWrap}>
                 <button
                   type="button"
-                  className={styles.mapBtn}
+                  className={`${styles.mapBtn} ${useClick ? styles.open : ""} ${
+                    useData === null ? styles.return : ""
+                  }`}
                   onClick={() => {
-                    setUseData(data);
+                    if (useData?.id === data.id) {
+                      setUseData(null);
+                      setUseClick(false);
+                    } else {
+                      setUseData(data);
+                      setUseClick(true);
+                    }
                   }}
                 >
                   <h3>{data.title} </h3>
                   <p>{data.desc}</p>
                   <span>해결 방식 &gt;</span>
                 </button>
-                {isOpen && (
-                  <NoteInner useData={useData} setUseData={setUseData} />
+                {useClick && useData?.id === data.id && (
+                  <NoteInner
+                    useData={useData}
+                    setUseData={setUseData}
+                    useClick={useClick}
+                  />
                 )}
               </div>
             );
           })}
-          {/* {useData && <NoteInner useData={useData}></NoteInner>} */}
         </div>
       </div>
     </section>

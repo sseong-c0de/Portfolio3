@@ -105,6 +105,22 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  @keyframes leftSlide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-75%);
+    }
+  }
+  @keyframes return {
+    from {
+      transform: translateX(-75%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
   .note {
     width: 100%;
     margin-top: 100px;
@@ -129,18 +145,24 @@
         margin: 50px auto 0;
         position: relative;
         .mapWrap {
-          // @include flex($jc: space-between);
-
           .mapBtn {
+            display: block;
+            margin: 0 auto 30px;
             width: 40%;
             padding: 20px;
             text-align: left;
-            margin-bottom: 30px;
             border: none;
             border-radius: 10px;
             background: #3d3d3d;
             color: $white;
             cursor: pointer;
+            &.open {
+              animation: leftSlide 0.3s ease forwards;
+            }
+            &.return {
+              animation: return 0.3s ease forwards;
+            }
+
             &:nth-of-type(5) {
               margin-bottom: 0;
             }
@@ -186,33 +208,38 @@
         }
       }
       .btnWrap {
-        width: 30%;
+        width: 62.5%;
+        max-width: 1200px;
         margin: 50px auto 0;
-        .mapBtn {
-          width: 100%;
-          padding: 20px;
-          text-align: left;
-          margin-bottom: 30px;
-          border: none;
-          border-radius: 10px;
-          background: #3d3d3d;
-          color: $white;
-          cursor: pointer;
-          &:nth-of-type(5) {
-            margin-bottom: 0;
-          }
+        .mapWrap {
+          .mapBtn {
+            display: block;
+            margin: 0 auto;
+            width: 40%;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 30px;
+            border: none;
+            border-radius: 10px;
+            background: #3d3d3d;
+            color: $white;
+            cursor: pointer;
+            &:nth-of-type(5) {
+              margin-bottom: 0;
+            }
 
-          h3 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 10px;
-          }
-          p {
-            font-size: 16px;
-            margin-bottom: 10px;
-          }
-          span {
-            font-size: 14px;
+            h3 {
+              font-size: 20px;
+              font-weight: 600;
+              margin-bottom: 10px;
+            }
+            p {
+              font-size: 16px;
+              margin-bottom: 10px;
+            }
+            span {
+              font-size: 14px;
+            }
           }
         }
       }
