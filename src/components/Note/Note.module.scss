@@ -1,0 +1,221 @@
+@use "../../styles/token.scss" as *;
+.note {
+  width: 100%;
+  margin-top: 100px;
+  .wrap {
+    width: 100%;
+    color: $white;
+    .title {
+      width: 82.22%;
+      margin: 0 auto;
+      line-height: 1.8;
+      font-size: 18px;
+      text-align: center;
+      color: $mainColor;
+      border-radius: 10px;
+      .titleDesc {
+        font-size: 24px;
+        color: $white;
+      }
+    }
+    .btnWrap {
+      width: 82.22%;
+      margin: 30px auto 0;
+      .mapBtn {
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+        margin-bottom: 30px;
+        border: none;
+        border-radius: 10px;
+        background: #3d3d3d;
+        color: $white;
+        cursor: pointer;
+        &:nth-of-type(5) {
+          margin-bottom: 0;
+        }
+
+        h3 {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .note {
+    width: 100%;
+    margin-top: 100px;
+    .wrap {
+      width: 100%;
+      color: $white;
+      .title {
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 18px;
+        text-align: center;
+        color: $mainColor;
+        border-radius: 10px;
+        .titleDesc {
+          font-size: 24px;
+          color: $white;
+        }
+      }
+      .btnWrap {
+        width: 50%;
+        margin: 50px auto 0;
+        .mapBtn {
+          width: 100%;
+          padding: 20px;
+          text-align: left;
+          margin-bottom: 30px;
+          border: none;
+          border-radius: 10px;
+          background: #3d3d3d;
+          color: $white;
+          cursor: pointer;
+          &:nth-of-type(5) {
+            margin-bottom: 0;
+          }
+
+          h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .note {
+    width: 100%;
+    margin-top: 100px;
+    .wrap {
+      width: 100%;
+      color: $white;
+      .title {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 18px;
+        text-align: center;
+        color: $mainColor;
+        border-radius: 10px;
+        .titleDesc {
+          font-size: 24px;
+          color: $white;
+        }
+      }
+      .btnWrap {
+        width: 70%;
+        margin: 50px auto 0;
+        position: relative;
+        .mapWrap {
+          // @include flex($jc: space-between);
+
+          .mapBtn {
+            width: 40%;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 30px;
+            border: none;
+            border-radius: 10px;
+            background: #3d3d3d;
+            color: $white;
+            cursor: pointer;
+            &:nth-of-type(5) {
+              margin-bottom: 0;
+            }
+
+            h3 {
+              font-size: 20px;
+              font-weight: 600;
+              margin-bottom: 10px;
+            }
+            p {
+              font-size: 16px;
+              margin-bottom: 10px;
+            }
+            span {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1500px) {
+  .note {
+    width: 100%;
+    margin-top: 100px;
+    .wrap {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      color: $white;
+      .title {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 18px;
+        text-align: center;
+        color: $mainColor;
+        border-radius: 10px;
+        .titleDesc {
+          font-size: 24px;
+          color: $white;
+        }
+      }
+      .btnWrap {
+        width: 30%;
+        margin: 50px auto 0;
+        .mapBtn {
+          width: 100%;
+          padding: 20px;
+          text-align: left;
+          margin-bottom: 30px;
+          border: none;
+          border-radius: 10px;
+          background: #3d3d3d;
+          color: $white;
+          cursor: pointer;
+          &:nth-of-type(5) {
+            margin-bottom: 0;
+          }
+
+          h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

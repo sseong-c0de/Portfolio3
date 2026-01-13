@@ -1,0 +1,68 @@
+@use "../../styles/token.scss" as *;
+.wrap {
+  width: 100%;
+  margin-bottom: 30px;
+  background: #3d3d3d;
+  border-radius: 20px;
+
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .title {
+    font-size: 20px;
+    @include flex($jc: space-between);
+    margin-bottom: 20px;
+    .closeBtn {
+      width: 10px;
+    }
+  }
+  .innerTitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .innerDesc {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrap {
+    width: 55%;
+    margin-bottom: 30px;
+    background: #3d3d3d;
+    border-radius: 20px;
+    float: right;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+
+    .inner {
+      width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .title {
+      font-size: 20px;
+      @include flex($jc: space-between);
+      margin-bottom: 20px;
+      .closeBtn {
+        width: 10px;
+      }
+    }
+    .innerTitle {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .innerDesc {
+      font-size: 16px;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+  }
+}

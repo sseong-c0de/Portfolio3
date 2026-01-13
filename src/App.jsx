@@ -4,6 +4,7 @@ import Intro from "./components/Intro/Intro.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import Contact from "./components/Contact/Contact.jsx";
+import Note from "./components/Note/Note.jsx";
 import Experience from "./components/Experience/Experience.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Intro />
         <Skills />
         <Projects />
+        <Note />
         <Experience />
         <Contact />
       </main>
