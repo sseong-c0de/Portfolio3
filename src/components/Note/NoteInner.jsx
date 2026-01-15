@@ -1,4 +1,5 @@
 import styles from "./NoteInner.module.scss";
+// import noteInnerData from "../../data/noteInner";
 function NoteInner({ useData, setUseData, useClick }) {
   return (
     <div className={`${styles.wrap} ${useClick ? styles.open : ""}`}>
@@ -18,17 +19,15 @@ function NoteInner({ useData, setUseData, useClick }) {
         <div className={styles.issue}>
           <p className={styles.innerTitle}>문제점</p>
           <p className={styles.innerDesc}>{useData.issue}</p>
-          <div className={styles.imgBox}></div>
+          <img src={useData.issueImg} alt={useData.issueAlt}></img>
         </div>
         <div className={styles.approach}>
           <p className={styles.innerTitle}>해결 방식</p>
           <p className={styles.innerDesc}>{useData.approach}</p>
-          <div className={styles.imgBox}></div>
         </div>
         <div className={styles.result}>
           <p className={styles.innerTitle}>결과</p>
           <p className={styles.innerDesc}>{useData.result}</p>
-          <div className={styles.imgBox}></div>
         </div>
       </div>
     </div>
