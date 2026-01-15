@@ -26,6 +26,7 @@ function NoteInner({ useData, setUseData, useClick }) {
           <p className={styles.innerDesc}>{useData.approach}</p>
         </div>
         <div className={styles.result}>
+          <img src={useData.resultImg} alt={useData.resultAlt}></img>
           <p className={styles.innerTitle}>결과</p>
           <p className={styles.innerDesc}>{useData.result}</p>
         </div>
