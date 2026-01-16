@@ -29,6 +29,7 @@
     font-size: 20px;
     @include flex($jc: space-between);
     margin-bottom: 20px;
+    font-weight: bold;
     .closeBtn {
       width: 10px;
     }
