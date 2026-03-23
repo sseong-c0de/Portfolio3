@@ -1,16 +1,64 @@
-# React + Vite
+# 💼 Portfolio3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+개인 프로젝트와 기술스택을 정리한 개인 포트폴리오 웹사이트입니다.  
+사용자가 직관적으로 정보를 탐색할 수 있도록 UI 구조와 사용자 흐름을 고려해 구현했습니다.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 배포 링크
 
-## React Compiler
+https://sseong-c0de.github.io/Portfolio3/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 기술 스택
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- Sass (SCSS)
+- Vite
+
+---
+
+## ✨ 주요 기능
+
+- 자기소개, 기술 스택, 프로젝트 정보를 한눈에 확인할 수 있는 구조 설계
+- 섹션 기반 네비게이션을 통한 빠른 이동
+- 반응형 UI 구현 (모바일/태블릿/노트북/데스크탑 대응)
+- 메뉴 토글 및 스크롤 상태에 따른 UI 변화 처리
+
+---
+
+## 🙋‍♂️ 담당 역할
+
+- UI/UX 구조 설계 및 전체 마크업 구현
+- React 컴포넌트 구조 설계 및 상태 관리
+- 반응형 레이아웃 및 스타일 구조 설계 (Sass)
+- 사용자 인터랙션(메뉴 토글, 스크롤 이벤트 등) 기능 구현
+
+---
+
+## 🚀 트러블슈팅
+
+### 문제
+
+노트 섹션의 팝업 애니메이션 구현 과정에서 동작이 매끄럽지 않고, 반응형 화면에 따라 애니메이션이 어색하게 보이는 문제가 있었습니다.
+
+### 원인
+
+애니메이션 실행 시점과 반응형상태의 연결점이 자연스럽게 연결이 되지않아 팝업의 나타남,이동 전환이 부드럽게 처리 되지 않았기 때문입니다.
+
+### 해결
+
+css애니메이션 전환 효과를 다시 점검하고, 상태에 맞게 토글이 되도록 자연스럽게 이어지도록 개선했습니다.
+
+### 결과
+
+노트 섹션 팝업의 전환 효과가 보다 부드럽게 동작하도록 개선했습니다.
+
+---
+
+## 📌 개선 예정
+
+- 접근성(ARIA, 키보드 네비게이션) 보완
+- 코드 구조 리팩토링 및 컴포넌트 재사용성 강화

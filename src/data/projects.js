@@ -86,5 +86,13 @@ const projectData = [
     desc: "React+Vite와 Sass를 활용해 컴포넌트 단위로 설계한 개인 포트폴리오 사이트입니다. 프로젝트 데이터를 기반으로 동적 렌더링과 반응형 UI를 구현했습니다. UX 흐름과 유지보수성을 고려한 구조 설계에 집중했습니다.",
     link: "https://sseong-c0de.github.io/Portfolio3/",
   },
+  {
+    id: "fishingMap",
+    title: "fishingMap",
+    summary: ["디자인 UI 구성",],
+    stack: ["HTML", "Sass", "JS", "React"],
+    desc: "피싱맵은 React와 Sass, 지도 API를 활용해 만든 낚시지수 및 물때 조회용 웹 애플리케이션입니다. 금어기와 낚시지수, 물때, 일출,일몰을 편리하게 탐색할 수 있도록 구현했습니다.",
+    link: "https://sseong-c0de.github.io/FishingMap/",
+  },
 ];
 export default projectData;
